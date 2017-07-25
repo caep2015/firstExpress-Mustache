@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Served By Node</title>
+  </head>
+  <body>
+    <h1>Staff Directory<h1>
+
+    <p>There are {{people.length }}staff members.</p>
+    <ul>
+      {{ #people }}
+        <li>{{name}}</li>
+      {{ /people }}
+    </ul>
+  </body>
+</html>
